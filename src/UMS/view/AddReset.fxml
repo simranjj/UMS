@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UMS.controller.AddResetController">
+    <children>
+        <VBox alignment="TOP_CENTER" layoutY="130.0" prefHeight="952.0" prefWidth="186.0" spacing="30.0" style="-fx-background-color: #263036;">
+            <children>
+                <Button alignment="TOP_LEFT" graphicTextGap="12.0" mnemonicParsing="false" onAction="#callMenu" prefHeight="44.0" prefWidth="187.0" style="-fx-border-color: none; -fx-graphic: url('http://icons.iconarchive.com/icons/icons8/windows-8/32/Very-Basic-Menu-icon.png');" text="MENU" textFill="#fbb90f">
+                    <VBox.margin>
+                        <Insets top="66.0" />
+                    </VBox.margin>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button alignment="TOP_LEFT" graphicTextGap="12.0" mnemonicParsing="false" onAction="#callFind" prefHeight="44.0" prefWidth="187.0" style="-fx-graphic: url('http://icons.iconarchive.com/icons/ampeross/qetto-2/32/search-icon.png'); -fx-border-color: none;" text="Find">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor></Button>
+                <Button alignment="TOP_LEFT" graphicTextGap="12.0" mnemonicParsing="false" onAction="#callVisual" prefHeight="44.0" prefWidth="187.0" style="-fx-graphic: url('http://icons.iconarchive.com/icons/praveen/minimal-outline/32/view-icon.png'); -fx-border-color: none;" text="Visual">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor></Button>
+                <Button alignment="TOP_LEFT" graphicTextGap="12.0" mnemonicParsing="false" onAction="#callReport" prefHeight="44.0" prefWidth="187.0" style="-fx-border-color: none; -fx-graphic: url('http://icons.iconarchive.com/icons/treetog/junior/32/document-yellow-icon.png');" text="Report">
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button alignment="TOP_LEFT" graphicTextGap="12.0" mnemonicParsing="false" onAction="#callStock" prefHeight="44.0" prefWidth="187.0" style="-fx-border-color: none; -fx-graphic: url('http://icons.iconarchive.com/icons/hopstarter/button/32/Button-Add-icon.png');" text="Stock">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor></Button>
+                <Button fx:id="m_i" alignment="TOP_LEFT" graphicTextGap="12.0" mnemonicParsing="false" onAction="#callIssue" prefHeight="44.0" prefWidth="187.0" style="-fx-graphic: url('http://icons.iconarchive.com/icons/etherbrian/webuosities/32/frank-icon.png'); -fx-border-color: none;" text="IssueReturn">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button fx:id="m_ar" alignment="TOP_LEFT" graphicTextGap="12.0" mnemonicParsing="false" onAction="#callAddReset" prefHeight="44.0" prefWidth="187.0" style="-fx-graphic: url('http://icons.iconarchive.com/icons/hopstarter/sleek-xp-basic/32/Document-Write-icon.png'); -fx-border-color: none;" text="Add/Reset">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button fx:id="m_ar1" alignment="TOP_LEFT" graphicTextGap="12.0" layoutX="13.0" layoutY="534.0" mnemonicParsing="false" onAction="#callResetPass" prefHeight="44.0" prefWidth="187.0" style="-fx-graphic: url('http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/32/Apps-system-software-update-icon.png'); -fx-border-color: none;" text="User Reset">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+            </children>
+            <opaqueInsets>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </opaqueInsets>
+        </VBox>
+
+        <StackPane layoutX="186.0" layoutY="193.0" prefHeight="952.0" prefWidth="1740.0">
+            <children>
+                <AnchorPane prefHeight="744.0" prefWidth="1402.0">
+                    <children>
+                        <TextField fx:id="addRemoveFieldEmpName" layoutX="275.0" layoutY="167.0" prefHeight="31.0" prefWidth="228.0" />
+
+                        <Button id="deleteButton" fx:id="addResetButton" layoutX="482.0" layoutY="573.0" mnemonicParsing="false" onAction="#add" prefHeight="52.0" prefWidth="149.0" style="-fx-background-color: #d98e15; -fx-background-radius: 30; -fx-border-color: none;" text="Add" />
+                        <Label id="lbl" fx:id="addRemoveLabelEmpName" layoutX="100.0" layoutY="167.0" text="Employee Name" />
+                        <Label id="lbl" fx:id="addRemoveLabelSite" layoutX="99.0" layoutY="166.0" text="Site Name" />
+                        <TextField fx:id="addRemoveFieldSite" layoutX="275.0" layoutY="166.0" prefHeight="31.0" prefWidth="228.0" />
+                        <ToggleButton id="tb" fx:id="addRemoveToggleEmpID" graphicTextGap="17.0" layoutX="75.0" layoutY="57.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="215.0" style="-fx-graphic: url('http://icons.iconarchive.com/icons/iynque/flat-ios7-style-documents/48/id-icon.png')" text="Add Employee " />
+                        <ToggleButton id="tb" fx:id="addRemoveToggleSite" graphicTextGap="17.0" layoutX="381.0" layoutY="57.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="215.0" style="-fx-graphic: url('http://icons.iconarchive.com/icons/paomedia/small-n-flat/48/building-icon.png')" text="Add Site " />
+                        <Label id="lbl" fx:id="addRemoveLabelEmpID" layoutX="99.0" layoutY="233.0" text="Employee ID" />
+                        <Label id="lbl" fx:id="addRemoveLabelPhone" layoutX="100.0" layoutY="301.0" text="Contact No" />
+                        <Label id="lbl" fx:id="addRemoveLabelEmail" layoutX="100.0" layoutY="375.0" text="Email ID" />
+                        <Label id="lbl" fx:id="addRemoveLabelAddress" layoutX="105.0" layoutY="448.0" text="Address" />
+                        <Label id="lbl" fx:id="addRemoveLabelSiteAddress" layoutX="100.0" layoutY="234.0" text="Site Address" />
+                        <TextField fx:id="addRemoveFieldSiteAddress" layoutX="275.0" layoutY="230.0" prefHeight="31.0" prefWidth="228.0" />
+                        <TextField fx:id="addRemoveFieldPhone" layoutX="275.0" layoutY="300.0" prefHeight="31.0" prefWidth="228.0" />
+                        <TextField fx:id="addRemoveFieldEmail" layoutX="275.0" layoutY="371.0" prefHeight="31.0" prefWidth="228.0" />
+                        <TextField fx:id="addRemoveFieldAddress" layoutX="275.0" layoutY="440.0" prefHeight="31.0" prefWidth="228.0" />
+                        <TextField fx:id="addRemoveFieldEmpID" layoutX="275.0" layoutY="231.0" prefHeight="31.0" prefWidth="228.0" />
+                        <Label layoutX="56.0" layoutY="640.0" text="Instruction:">
+                            <font>
+                                <Font name="System Bold" size="18.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="172.0" layoutY="640.0" text="If no Email ID then use your Email ID">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Label>
+                        <ToggleButton id="tb" fx:id="addRemoveToggleItem" graphicTextGap="17.0" layoutX="736.0" layoutY="57.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="215.0" style="-fx-graphic: url('http://icons.iconarchive.com/icons/paomedia/small-n-flat/48/building-icon.png')" text="Add Item" />
+                        <Label fx:id="addRemoveLabelItemName" layoutX="669.0" layoutY="159.0" prefHeight="30.0" prefWidth="111.0" text="Item Name">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Label>
+                        <Label fx:id="addRemoveLabelCost" layoutX="671.0" layoutY="219.0" prefHeight="30.0" prefWidth="92.0" text="Cost">
+                            <font>
+                                <Font size="18.0" />
+                            </font></Label>
+                        <Label fx:id="addRemoveLabelMinCount" layoutX="669.0" layoutY="286.0" prefHeight="30.0" prefWidth="98.0" text="Min Count">
+                            <font>
+                                <Font size="18.0" />
+                            </font></Label>
+                        <TextField fx:id="addRemoveFieldItemName" layoutX="786.0" layoutY="159.0" prefHeight="31.0" prefWidth="228.0" />
+                        <TextField fx:id="addRemoveFieldCost" layoutX="786.0" layoutY="219.0" prefHeight="31.0" prefWidth="228.0" />
+                        <TextField fx:id="addRemoveFieldMinCount" layoutX="786.0" layoutY="286.0" prefHeight="31.0" prefWidth="228.0" />
+                        <ToggleButton id="tb" graphicTextGap="17.0" layoutX="671.0" layoutY="570.0" mnemonicParsing="false" onAction="#itemReset" prefHeight="52.0" prefWidth="145.0" style="-fx-background-radius: 30;" text="Reset" />
+
+                    </children>
+
+                </AnchorPane>
+
+            </children>
+        </StackPane>
+        <VBox alignment="CENTER" layoutX="187.0" prefHeight="128.0" prefWidth="1740.0" style="-fx-background-color: #263036;">
+            <children>
+                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="111.0" prefWidth="1393.0" style="-fx-font-weight: BOLD;" text="UNIT MANAGEMENT SYSTEM" textFill="#d7a329" wrapText="true">
+                    <font>
+                        <Font name="Times New Roman" size="72.0" />
+                    </font>
+                </Label>
+            </children>
+        </VBox>
+        <VBox alignment="CENTER_RIGHT" layoutX="-2.0" prefHeight="128.0" prefWidth="188.0" style="-fx-background-color: #263036;">
+            <children>
+                <Label prefHeight="43.0" prefWidth="187.0" text="Pillar Security" textFill="#ffb22d">
+                    <font>
+                        <Font name="Bell MT" size="31.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets left="4.0" />
+                    </VBox.margin>
+                </Label>
+                <Label text="Security Group" textFill="WHITE">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+            </children>
+        </VBox>
+        <HBox alignment="CENTER_LEFT" layoutX="188.0" layoutY="130.0" prefHeight="63.0" prefWidth="1740.0" style="-fx-background-color: #263036;">
+            <children>
+                <Label fx:id="ir_label" text="Add Record" textFill="WHITE">
+                    <font>
+                        <Font name="Segoe UI" size="30.0" />
+                    </font>
+                </Label>
+            </children>
+            <padding>
+                <Insets left="5.0" />
+            </padding>
+        </HBox>
+    </children>
+</AnchorPane>

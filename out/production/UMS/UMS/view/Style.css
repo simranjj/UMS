@@ -1,0 +1,122 @@
+.root {
+    -fx-base:rgb(255, 176, 22);
+    -fx-background: rgb(254, 253, 255);
+
+    /* make controls (buttons, thumb, etc.) slightly lighter */
+    -fx-color: derive(-fx-base, 10%);
+
+    /* text fields and table rows background */
+    -fx-control-inner-background: rgb(255, 253, 213);
+    /* version of -fx-control-inner-background for alternative rows */
+    -fx-control-inner-background-alt: derive(-fx-control-inner-background, 40%);
+
+    /* text colors depending on background's brightness */
+    -fx-light-text-color: rgb(220, 220, 220);
+    -fx-mid-text-color: rgb(100, 100, 100);
+    -fx-dark-text-color: rgb(20, 20, 20);
+
+    /* A bright blue for highlighting/accenting objects.  For example: selected
+     * text; selected items in menus, lists, trees, and tables; progress bars */
+    -fx-accent: rgb(195, 136, 21);
+
+    /* color of non-focused yet selected elements */
+    -fx-selection-bar-non-focused: rgb(255, 176, 22);
+}
+#lbl{
+    -fx-font-size: 20;
+
+
+}
+.button{
+    -fx-background-color : #3e3e3e;
+    -fx-font-size: 15;
+    -fx-text-fill:#ffffff;
+    -fx-border-color: none;
+
+
+
+}
+
+.button:hover{
+
+    -fx-background-color: #c38815;
+    -fx-border-radius: 20;
+    -fx-border-width: 1.6;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 18;
+    -fx-border-color: #946715;
+
+}
+.button:armed{
+    -fx-background-color: #d98e15;
+    -fx-border-radius: 20;
+    -fx-border-width: 1.6;
+    -fx-text-fill: #946715;
+    -fx-font-size: 14;
+    -fx-border-color: #946715;
+
+}
+
+#tb:hover{
+    -fx-background-color: #fffcb6;
+    -fx-border-radius: 20;
+    -fx-border-width: 1.6;
+    -fx-text-fill: #d98e15;
+    -fx-font-size: 18;
+    -fx-border-color: #946715;
+}
+#tb{
+    -fx-background-color : #d98e15;
+    -fx-font-size: 15;
+    -fx-text-fill:#fff;
+    -fx-border-color: none;
+    -fx-border-radius:5px;
+
+    -fx-background-radius: 20;
+
+}
+/* Fix derived prompt color for text fields */
+.text-input {
+    -fx-prompt-text-fill: derive(-fx-control-inner-background, +20%);
+    -fx-font-size: 15;
+}
+
+/* Keep prompt invisible when focused (above color fix overrides it) */
+.text-input:focused {
+    -fx-prompt-text-fill: transparent;
+}
+
+/* Fix scroll bar buttons arrows colors */
+.scroll-bar > .increment-button > .increment-arrow,
+.scroll-bar > .decrement-button > .decrement-arrow {
+    -fx-background-color: -fx-mark-highlight-color, rgb(252, 255, 196);
+}
+
+.scroll-bar > .increment-button:hover > .increment-arrow,
+.scroll-bar > .decrement-button:hover > .decrement-arrow {
+    -fx-background-color: -fx-mark-highlight-color, rgb(255, 253, 213);
+}
+
+.scroll-bar > .increment-button:pressed > .increment-arrow,
+.scroll-bar > .decrement-button:pressed > .decrement-arrow {
+    -fx-background-color: -fx-mark-highlight-color, rgb(255, 252, 182);
+}
+
+#table {
+    -fx-font-size: 15px;
+
+}
+#td{
+    -fx-text-alignment: center;
+}
+
+#findTable {
+    -fx-font-size: 15px;
+
+}
+.combo-box .list-view{
+    -fx-font-size: 15px;
+}
+.chart-pie-label{
+    -fx-font-size: 16px;
+}
