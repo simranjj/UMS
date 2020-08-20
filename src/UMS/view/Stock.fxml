@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UMS.controller.StockController">
+    <children>
+        <VBox alignment="TOP_CENTER" layoutY="130.0" prefHeight="952.0" prefWidth="186.0" spacing="30.0" style="-fx-background-color: #263036;">
+            <children>
+                <Button alignment="TOP_LEFT" graphicTextGap="12.0" mnemonicParsing="false" onAction="#callMenu" prefHeight="44.0" prefWidth="187.0" style="-fx-border-color: none; -fx-graphic: url('http://icons.iconarchive.com/icons/icons8/windows-8/32/Very-Basic-Menu-icon.png');" text="MENU" textFill="#fbb90f">
+                    <VBox.margin>
+                        <Insets top="66.0" />
+                    </VBox.margin>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button alignment="TOP_LEFT" graphicTextGap="12.0" mnemonicParsing="false" onAction="#callFind" prefHeight="44.0" prefWidth="187.0" style="-fx-graphic: url('http://icons.iconarchive.com/icons/ampeross/qetto-2/32/search-icon.png'); -fx-border-color: none;" text="Find">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor></Button>
+                <Button alignment="TOP_LEFT" graphicTextGap="12.0" mnemonicParsing="false" onAction="#callVisual" prefHeight="44.0" prefWidth="187.0" style="-fx-graphic: url('http://icons.iconarchive.com/icons/praveen/minimal-outline/32/view-icon.png'); -fx-border-color: none;" text="Visual">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor></Button>
+                <Button alignment="TOP_LEFT" graphicTextGap="12.0" mnemonicParsing="false" onAction="#callReport" prefHeight="44.0" prefWidth="187.0" style="-fx-border-color: none; -fx-graphic: url('http://icons.iconarchive.com/icons/treetog/junior/32/document-yellow-icon.png');" text="Report">
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button alignment="TOP_LEFT" graphicTextGap="12.0" mnemonicParsing="false" onAction="#callStock" prefHeight="44.0" prefWidth="187.0" style="-fx-border-color: none; -fx-graphic: url('http://icons.iconarchive.com/icons/hopstarter/button/32/Button-Add-icon.png');" text="Stock">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor></Button>
+                <Button fx:id="m_i" alignment="TOP_LEFT" graphicTextGap="12.0" mnemonicParsing="false" onAction="#callIssue" prefHeight="44.0" prefWidth="187.0" style="-fx-graphic: url('http://icons.iconarchive.com/icons/etherbrian/webuosities/32/frank-icon.png'); -fx-border-color: none;" text="IssueReturn">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button fx:id="m_ar" alignment="TOP_LEFT" graphicTextGap="12.0" mnemonicParsing="false" onAction="#callAddReset" prefHeight="44.0" prefWidth="187.0" style="-fx-graphic: url('http://icons.iconarchive.com/icons/hopstarter/sleek-xp-basic/32/Document-Write-icon.png'); -fx-border-color: none;" text="Add/Reset">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button fx:id="m_ar1" alignment="TOP_LEFT" graphicTextGap="12.0" layoutX="13.0" layoutY="534.0" mnemonicParsing="false" onAction="#callResetPass" prefHeight="44.0" prefWidth="187.0" style="-fx-graphic: url('http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/32/Apps-system-software-update-icon.png'); -fx-border-color: none;" text="User Reset">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+            </children>
+            <opaqueInsets>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </opaqueInsets>
+        </VBox>
+
+        <StackPane layoutX="186.0" layoutY="194.0" prefHeight="873.0" prefWidth="1740.0">
+            <children>
+                <AnchorPane prefHeight="767.0" prefWidth="1151.0">
+                    <children>
+                        <Label id="lbl" layoutX="87.0" layoutY="327.0" text="Item Name" />
+                        <Label id="lbl" layoutX="98.0" layoutY="390.0" text="Quantity" visible="false" />
+                        <Button fx:id="generate" layoutX="162.0" layoutY="685.0" mnemonicParsing="false" onAction="#print" prefHeight="58.0" prefWidth="203.0" style="-fx-background-color: #d98e15; -fx-background-radius: 30; -fx-border-color: none;" text="Generate Bar Code" />
+                        <TextField fx:id="addFieldQuantity" layoutX="230.0" layoutY="390.0" prefHeight="31.0" prefWidth="239.0" text="1" />
+                        <ComboBox fx:id="addComboItemName" layoutX="230.0" layoutY="466.0" prefHeight="31.0" prefWidth="239.0" />
+                        <ToggleButton id="tb" fx:id="addToggleMale" layoutX="120.0" layoutY="54.0" mnemonicParsing="false" onAction="#show" prefHeight="58.0" prefWidth="133.0" style="-fx-graphic: url('http://icons.iconarchive.com/icons/icons-land/vista-people/32/Office-Customer-Male-Light-icon.png')" text="Male" />
+                        <ToggleButton id="tb" fx:id="addToggleFemale" layoutX="324.0" layoutY="54.0" mnemonicParsing="false" onAction="#show" prefHeight="58.0" prefWidth="144.0" style="-fx-graphic: url('http://icons.iconarchive.com/icons/icons-land/vista-people/48/Office-Customer-Female-Light-icon.png')" text="Female" />
+                        <ToggleButton id="tb" fx:id="addToggleShirt" layoutX="28.0" layoutY="165.0" mnemonicParsing="false" onAction="#choose" prefHeight="58.0" prefWidth="133.0" style="-fx-graphic: url('http://icons.iconarchive.com/icons/webalys/kameleon.pics/48/T-Shirt-2-icon.png')" text="Shirt" />
+                        <ToggleButton id="tb" fx:id="addTogglePants" layoutX="172.0" layoutY="165.0" mnemonicParsing="false" onAction="#choose" prefHeight="58.0" prefWidth="133.0" style="-fx-graphic: url('http://icons.iconarchive.com/icons/iconsmind/outline/48/Pants-icon.png')" text="Pants" />
+                        <ToggleButton id="tb" fx:id="addToggleBlazer" layoutX="320.0" layoutY="165.0" mnemonicParsing="false" onAction="#choose" prefHeight="58.0" prefWidth="133.0" style="-fx-graphic: url('http://icons.iconarchive.com/icons/google/noto-emoji-people-clothing-objects/48/12181-coat-icon.png')" text="Blazer" />
+                        <ToggleButton id="tb" fx:id="addToggleTie" layoutX="468.0" layoutY="165.0" mnemonicParsing="false" onAction="#choose" prefHeight="58.0" prefWidth="133.0" style="-fx-graphic: url('http://icons.iconarchive.com/icons/ampeross/qetto-2/48/profile-4-icon.png')" text="Tie" />
+                        <TableView id="table" fx:id="addTable" layoutX="872.0" layoutY="54.0" prefHeight="710.0" prefWidth="846.0">
+                            <columns>
+                                <TableColumn fx:id="addColumnItemName" prefWidth="449.599853515625" text="Item Name" />
+                                <TableColumn fx:id="addColumnItemCount" prefWidth="200.0001220703125" text="Count" />
+                                <TableColumn fx:id="addColumnItemCost" prefWidth="300.0" text="Cost ( $ )" />
+                            </columns>
+                        </TableView>
+                        <Label layoutX="1426.0" layoutY="773.0" text="Total Cost">
+                            <font>
+                                <Font name="System Bold" size="20.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="addTotalCost" layoutX="1552.0" layoutY="773.0" prefHeight="30.0" prefWidth="133.0" text="0">
+                            <font>
+                                <Font name="System Italic" size="18.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="addFieldItemName" layoutX="231.0" layoutY="327.0" onMouseClicked="#insertRecord" prefHeight="31.0" prefWidth="239.0" />
+                  <Label layoutX="87.0" layoutY="399.0" text="Quantity">
+                        <font>
+                            <Font size="18.0" />
+                        </font>
+                  </Label>
+                  <Label id="lbl" layoutX="88.0" layoutY="467.0" text="Barcode" />
+                        <ImageView fx:id="doneImage" fitHeight="44.0" fitWidth="50.0" layoutX="485.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="http://icons.iconarchive.com/icons/custom-icon-design/flatastic-2/96/process-accept-icon.png" />
+                            </image></ImageView>
+                    </children>
+
+                </AnchorPane>
+
+            </children>
+        </StackPane>
+        <VBox alignment="CENTER" layoutX="187.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="128.0" prefWidth="1740.0" style="-fx-background-color: #263036;">
+            <children>
+                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="111.0" prefWidth="1740.0" style="-fx-font-weight: BOLD;" text="UNIT MANAGEMENT SYSTEM" textFill="#d7a329" wrapText="true">
+                    <font>
+                        <Font name="Times New Roman" size="72.0" />
+                    </font>
+                </Label>
+            </children>
+        </VBox>
+        <VBox alignment="CENTER_RIGHT" layoutX="-2.0" prefHeight="128.0" prefWidth="188.0" style="-fx-background-color: #263036;">
+            <children>
+                <Label prefHeight="43.0" prefWidth="187.0" text="Pillar Security" textFill="#ffb22d">
+                    <font>
+                        <Font name="Bell MT" size="31.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets left="4.0" />
+                    </VBox.margin>
+                </Label>
+                <Label text="Security Group" textFill="WHITE">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+            </children>
+        </VBox>
+        <HBox alignment="CENTER_LEFT" layoutX="188.0" layoutY="130.0" prefHeight="63.0" prefWidth="1740.0" style="-fx-background-color: #263036;">
+            <children>
+                <Label fx:id="ir_label" text="Stock Item" textFill="WHITE">
+                    <font>
+                        <Font name="Segoe UI" size="30.0" />
+                    </font>
+                </Label>
+            </children>
+            <padding>
+                <Insets left="5.0" />
+            </padding>
+        </HBox>
+    </children>
+</AnchorPane>

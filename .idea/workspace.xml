@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UMS/view/AddReset.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/UMS/view/AddReset.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UMS/view/Dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/UMS/view/Dashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UMS/view/Report.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/UMS/view/Report.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UMS/view/ResetPass.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/UMS/view/ResetPass.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UMS/view/Stock.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/UMS/view/Stock.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UMS/view/Visual.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/UMS/view/Visual.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="FxmlFile" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectId" id="1S7UQ133eaTXM08jcULUhSCQuSV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="UMS.dbHelper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\UMS\UMS\src\UMS\view" />
+      <recent name="D:\UMS\UMS\src\UMS\assests" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="UMS.application.Main" />
+      <module name="UMS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UMS.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1570914119908" duration="211000" />
+      <workItem from="1570995356021" duration="4179000" />
+      <workItem from="1571083043083" duration="1896000" />
+      <workItem from="1571593743721" duration="7922000" />
+      <workItem from="1573928742092" duration="5620000" />
+      <workItem from="1574015139909" duration="6860000" />
+      <workItem from="1574534868723" duration="6057000" />
+      <workItem from="1574542252778" duration="335000" />
+      <workItem from="1575134196190" duration="3261000" />
+      <workItem from="1575400004253" duration="1555000" />
+      <workItem from="1575741518737" duration="452000" />
+      <workItem from="1576259225615" duration="26000" />
+      <workItem from="1576346582009" duration="24000" />
+      <workItem from="1576857993509" duration="32000" />
+      <workItem from="1577209788325" duration="1463000" />
+      <workItem from="1577212874103" duration="261000" />
+      <workItem from="1579397567416" duration="1572000" />
+      <workItem from="1579460328227" duration="8841000" />
+      <workItem from="1579475283503" duration="18000" />
+      <workItem from="1580255313886" duration="646000" />
+      <workItem from="1580350089741" duration="59000" />
+      <workItem from="1580683168303" duration="7029000" />
+      <workItem from="1580851864815" duration="29000" />
+      <workItem from="1581875131408" duration="20047000" />
+      <workItem from="1582135860203" duration="2869000" />
+      <workItem from="1582395402532" duration="7000" />
+      <workItem from="1597788311018" duration="10305000" />
+      <workItem from="1597805785088" duration="336000" />
+      <workItem from="1597806134962" duration="5181000" />
+      <workItem from="1597838524295" duration="46225000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="530" y="25" key="#com.intellij.ide.util.MemberChooser" timestamp="1597943801790">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="530" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1597943801790" />
+    <state x="1" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1597942565317">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="1" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1597942565317" />
+    <state width="1481" height="40" key="GridCell.Tab.0.bottom" timestamp="1597950348082">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1481" height="40" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1597950348082" />
+    <state width="1481" height="40" key="GridCell.Tab.0.center" timestamp="1597950348082">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1481" height="40" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1597950348082" />
+    <state width="1481" height="40" key="GridCell.Tab.0.left" timestamp="1597950348082">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1481" height="40" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1597950348082" />
+    <state width="1481" height="40" key="GridCell.Tab.0.right" timestamp="1597950348082">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1481" height="40" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1597950348082" />
+    <state width="1481" height="40" key="GridCell.Tab.1.bottom" timestamp="1597950348083">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1481" height="40" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1597950348083" />
+    <state width="1481" height="40" key="GridCell.Tab.1.center" timestamp="1597950348083">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1481" height="40" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1597950348083" />
+    <state width="1481" height="40" key="GridCell.Tab.1.left" timestamp="1597950348083">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1481" height="40" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1597950348083" />
+    <state width="1481" height="40" key="GridCell.Tab.1.right" timestamp="1597950348083">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1481" height="40" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1597950348083" />
+    <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1597933088240">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1597933088240" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/UMS/service/DBService.java</url>
+          <line>537</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

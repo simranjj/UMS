@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="1600.0" prefWidth="3000.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UMS.controller.LoginController">
+    <children>
+
+
+        <StackPane layoutX="-1.0" layoutY="130.0">
+            <children>
+                <AnchorPane style="-fx-background-color: #040308;">
+                    <children>
+                        <HBox alignment="CENTER" layoutX="1.0" prefHeight="63.0" prefWidth="2217.0" style="-fx-background-color: #263036;">
+                            <children>
+                                <Label contentDisplay="CENTER" prefHeight="43.0" prefWidth="514.0" text="Login" textFill="WHITE">
+                                    <font>
+                                        <Font size="29.0" />
+                                    </font>
+                                    <HBox.margin>
+                                        <Insets left="5.0" />
+                                    </HBox.margin>
+                                </Label>
+                            </children>
+                        </HBox>
+                        <AnchorPane layoutY="63.0" nodeOrientation="LEFT_TO_RIGHT">
+                            <children>
+                                <ImageView layoutX="-1.0" layoutY="-1.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true">
+                                    <image>
+                                        <Image url="@../assets/login.jpg" />
+                                    </image>
+                                </ImageView>
+                                <AnchorPane layoutX="1237.0" layoutY="293.0" prefHeight="390.0" prefWidth="466.0" style="-fx-background-color: #060918; -fx-background-radius: 50;">
+                                    <children>
+                                        <Label id="lbl" layoutX="84.0" layoutY="90.0" text="UserName" textFill="WHITE">
+                                            <font>
+                                                <Font name="Calibri Bold" size="14.0" />
+                                            </font>
+                                        </Label>
+                                        <TextField fx:id="username" layoutX="253.0" layoutY="88.0" />
+                                        <Label id="lbl" layoutX="83.0" layoutY="191.0" text="Password" textFill="#fffefe">
+                                            <font>
+                                                <Font size="14.0" />
+                                            </font>
+                                        </Label>
+                                        <PasswordField fx:id="password" layoutX="253.0" layoutY="194.0" />
+                                        <Button id="findButton" fx:id="find" graphicTextGap="26.0" layoutX="177.0" layoutY="306.0" mnemonicParsing="false" onAction="#login" prefHeight="58.0" prefWidth="149.0" style="-fx-background-radius: 30; -fx-border-color: none; -fx-background-color: #1E486B;" text="Login" />
+                                    </children>
+                                    <effect>
+                                        <DropShadow height="255.0" radius="127.0" spread="0.49" width="255.0" />
+                                    </effect>
+                                </AnchorPane>
+                            </children>
+                        </AnchorPane>
+                    </children>
+
+                </AnchorPane>
+
+            </children>
+        </StackPane>
+        <VBox alignment="CENTER" layoutX="187.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="128.0" prefWidth="2092.0" style="-fx-background-color: #263036;">
+            <children>
+                <Label contentDisplay="CENTER" prefHeight="111.0" prefWidth="1632.0" style="-fx-font-weight: BOLD;" text="UNIT MANAGEMENT SYSTEM" textFill="#d7a329" wrapText="true">
+                    <font>
+                        <Font name="Times New Roman" size="72.0" />
+                    </font>
+                </Label>
+            </children>
+        </VBox>
+        <VBox alignment="CENTER_RIGHT" layoutX="-2.0" prefHeight="128.0" prefWidth="188.0" style="-fx-background-color: #263036;">
+            <children>
+                <Label prefHeight="43.0" prefWidth="187.0" text="Pillar Security" textFill="#ffb22d">
+                    <font>
+                        <Font name="Bell MT" size="31.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets left="4.0" />
+                    </VBox.margin>
+                </Label>
+                <Label text="Security Group" textFill="WHITE">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>
