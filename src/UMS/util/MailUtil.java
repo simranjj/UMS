@@ -17,8 +17,8 @@ public class MailUtil {
         properties.put("mail.smtp.auth", "true");
         properties.put("mail.smtp.starttls.enable", "true");
         properties.put("mail.smtp.host", "smtp.gmail.com");
-        String fromUser = "javatest35@gmail.com";
-        String fromUserEmailPassword = "javahere26@";
+        String fromUser = "";
+        String fromUserEmailPassword = "";
 
         Session session = Session.getInstance(properties, new Authenticator() {
             @Override
