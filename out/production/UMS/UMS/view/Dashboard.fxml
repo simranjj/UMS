@@ -273,7 +273,11 @@
         </StackPane>
         <VBox alignment="CENTER" layoutX="187.0" prefHeight="128.0" prefWidth="1740.0" style="-fx-background-color: #263036;">
             <children>
+<<<<<<< HEAD
                 <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="111.0" prefWidth="1393.0" style="-fx-font-weight: BOLD;" text="UNIT MANAGEMENT SYSTEM" textFill="#d7a329" wrapText="true">
+=======
+                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="111.0" prefWidth="1393.0" style="-fx-font-weight: BOLD;" text="UNIFORM MANAGEMENT SYSTEM" textFill="#d7a329" wrapText="true">
+>>>>>>> 4e54d16133044fd468f801f61c25c539e0832b4c
                     <font>
                         <Font name="Times New Roman" size="72.0" />
                     </font>
