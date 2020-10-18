@@ -59,4 +59,9 @@ git clone https://github.com/simranjj/UMS.git
 * [J2EE][http://www.java2s.com/]
 * [Microsoft SQL Server][https://www.microsoft.com/en-ca/sql-server/sql-server-downloads]
 
+## Screenshots
+![](images/Add_Item.png)
 
+![](images/Report%20Generation.png)
+
+![](images/Visualise.png)
